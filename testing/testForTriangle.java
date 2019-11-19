@@ -1,7 +1,10 @@
 package com.company.tests;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertFalse;
 
+import static org.junit.jupiter.api.Assertions.*;
 import com.company.object.Triangle;
 import org.junit.jupiter.api.Test;
 

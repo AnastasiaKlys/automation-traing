@@ -8,19 +8,52 @@ import org.junit.jupiter.api.Test;
 class testForTriangle {
 
     private Triangle triangle = new Triangle();
+    
+    @Test
+    public void rightTriangle(){
+        assertTrue(triangle.isExist(5.0, 4.0, 3.0));
+    }
 
     @Test
-    void exist() {
-        assertEquals(true, triangle.isExist(3, 4, 5));
-        assertEquals(true, triangle.isExist(7, 9, 10));
-        assertEquals(true, triangle.isExist(1, 1, 1));
-        assertEquals(true, triangle.isExist(4, 4, 5));
-        assertEquals(true, triangle.isExist(9, 8, 7));
-        assertEquals(true, triangle.isExist(4, 5, 3));
-        assertEquals(false, triangle.isExist(3, 9, 5));
-        assertEquals(false, triangle.isExist(-3, -9, -5));
-        assertEquals(false, triangle.isExist(0, 9, 5));
-        assertEquals(false, triangle.isExist(0, -8, 100));
+    public void allZeroSides() {
+        assertThrows(IllegalArgumentException.class, () -> triangle.isExist(0, 0, 0));
     }
+
+    @Test
+    public void oneZeroSide() {
+        assertThrows(IllegalArgumentException.class, () -> triangle.isExist(0.0, 4.0, 5.0));
+    }
+
+    @Test
+    public void oneNegativeSide() {
+        assertThrows(IllegalArgumentException.class, () -> triangle.isExist(-3.0, 4.0, 5.0));
+    }
+
+    @Test
+    public void allNegativeSides() {
+        assertThrows(IllegalArgumentException.class, () -> triangle.isExist(-3.0, -4.0, -5.0));
+
+    }
+
+    @Test
+    public void sumOfTwoSidesLessThird() {
+        assertFalse(triangle.isExist(3.0, 3.0, 6.1));
+    }
+
+    @Test
+    public void sumOfTwoSidesEqualsThird()  {
+        assertFalse(triangle.isExist(12.5, 12.5, 25.0));
+    }
+
+    @Test
+    public void sumOfTwoSidesGreaterThird() {
+        assertFalse(triangle.isExist(12.6, 99.3, 24.7));
+    }
+
+    @Test
+    public void allEqualSide(){
+        assertTrue(triangle.isExist(5.0, 5.0, 5.0));
+    }
+
 
 }

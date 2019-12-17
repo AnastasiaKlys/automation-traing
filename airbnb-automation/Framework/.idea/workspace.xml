@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29a7b906-3728-4222-8861-c7eb0b5b6807" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Driver/DriverInstance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/DriverBinaries/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/GitHubAutomation.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Pages/CreateNewRepositoryPage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Pages/LoginPage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Pages/MainPage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Steps/Steps.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Tests/SmokeTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/Utils/RandomGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet/GitHubAutomation/packages.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/driver/DriverSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/page/AbstractPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/page/CreateNewRepositoryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/page/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/page/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/service/TestDataReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/service/UserCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/test/CommonConditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/test/RepositoryManagementTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/test/UserAccessTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/java/com/epam/ta/util/TestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/staging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/testng-all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/GitHubAutomation/src/test/resources/testng-smoke.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UsabJUjyCQSWdyGG02UNX0guNk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/by/bsu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="by.bsu.Main" />
+      <module name="Framework" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29a7b906-3728-4222-8861-c7eb0b5b6807" name="Default Changelist" comment="" />
+      <created>1576147826662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576147826662</updated>
+      <workItem from="1576147831473" duration="1467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

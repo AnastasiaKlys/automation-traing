@@ -1,0 +1,10 @@
+  
+*.db
+*.log
+target/
+bin/
+
+*.iml
+.idea/
+out/
+.DS_Store

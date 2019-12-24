@@ -150,22 +150,4 @@ public class StayTests extends CommonConditions {
                 .getTextOfMessageAboutErrorsWithDate();
         assertThat(textOfMessageAboutErrorsWithDate, is(equalTo("Укажите дату выезда")));
     }
-
-    @Test
-    public void changeAdultsAndRoomNumberOnStayDetailPage() {
-        StaySearchCriteria staySearchCriteria = StaySearchCriteriaCreator.withCredentialsFromProperty();
-
-        StayDetailPage stayDetailPage = new StaysPage(driver)
-                .openPage()
-                .searchForStays(staySearchCriteria.getDestination(), staySearchCriteria.getCheckIn(), staySearchCriteria.getCheckOut())
-                .openDetailedStayInformation(1);
-
-        switchToWindow(1);
-
-        stayDetailPage.changeAdultsCount(TEN_ADULTS);
-
-        int currentNumberOfAdults = stayDetailPage.getCurrentNumberOfAdults();
-        assertThat(currentNumberOfAdults, is(equalTo(TEN_ADULTS)));
-
-    }
 }

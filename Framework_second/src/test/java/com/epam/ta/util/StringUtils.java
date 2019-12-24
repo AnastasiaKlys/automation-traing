@@ -8,4 +8,5 @@ public class StringUtils {
     public static final int TEN_ADULTS = 10;
     public final static String CITY_NAME_ALERT_TEXT = "Ошибка:\n" + "К сожалению, нам не известно это направление.";
     public final static String BOOKING_DESTINATION = "Madrid";
+    public final static String PRICE_ALERT_MAIN_TEXT = "";
 }
